@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login – Post Data</title>
+    <!-- Google font to match the main site -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for potential icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-sRG1q9Lja8XvJvJ+KErG3jB6/6dEFpphBZLXhE0pyYgK5A0/3j2qYdEWxV1xv1ou1xRBZtH27qFjX6Mz+gd/aQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header reused from main site for consistent navigation -->
+    <header class="header">
+      <div class="container header-content">
+        <!-- Clicking the logo returns to inicio -->
+        <a href="index.html#" class="logo">Post Data</a>
+        <nav class="navbar">
+          <a href="index.html#about">Sobre nosotros</a>
+          <a href="index.html#portfolio">Portafolio</a>
+          <a href="index.html#contacto">Contacto</a>
+          <!-- El botón de login permanece aquí para consistencia -->
+          <a href="login.html" class="login-btn">Login</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Sección de login con formulario -->
+    <section class="login-section">
+      <div class="container">
+        <h2>Iniciar sesión</h2>
+        <form class="login-form" action="#" method="post">
+          <label for="username">Usuario o correo electrónico</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Ingresa tu usuario o correo"
+            required
+          />
+          <label for="password">Contraseña</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Ingresa tu contraseña"
+            required
+          />
+          <button type="submit">Acceder</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer reutilizado para coherencia -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Post Data. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
